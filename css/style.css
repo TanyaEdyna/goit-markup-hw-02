@@ -180,5 +180,4 @@ body {
 .portfolio-item {
     border: 1px solid var(--border-line-portfolio);
     background-color: var(--white-color);
-    width: 370px;
 }
