@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F5F5;
+    background-color: var(--white-color);
     font-family:  'Roboto', sans-serif;
 }
  :root {
@@ -8,8 +8,11 @@ body {
     --text-color: #757575;
     --white-color: #FFFFFF;
     --black-color: #000000;
-    --section-background-colr: #F5F4FA;
+    --section-background-color: #F5F4FA;
+    --btn-background-color: #F5F4FA;
     --footer-background:#2F303A;
+    --border-line-portfolio: #EEEEEE;
+
  }
 /* NAVIGATION */
  .logo-color {
@@ -96,7 +99,11 @@ body {
  }
  /* OUR TEAM */
  .team {
-    background-color: var(--section-background-colr);
+    background-color: var(--section-background-color);
+ }
+ .team-item {
+    background-color: var(--white-color);
+    width: 270px;
  }
  .team-title {
     font-weight: 700;
@@ -135,8 +142,42 @@ body {
     color: var(--white-color);
 }
 .address-link {
-    color: color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .link-mail {
     color: var(--text-color);
+}
+.filter-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    border: none;
+    color: var(--title-color);
+    background-color: var(--btn-background-color);
+    border-radius: 4px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+}
+/* PORTFOLIO */
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.portfolio-item {
+    border: 1px solid var(--border-line-portfolio);
+    background-color: var(--white-color);
+    width: 370px;
 }
