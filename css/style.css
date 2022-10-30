@@ -176,6 +176,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--accent-color);
+    color: var(--white-color);
 }
 .portfolio-title {
     font-weight: 700;
