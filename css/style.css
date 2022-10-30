@@ -15,10 +15,8 @@ body {
 
  }
 /* NAVIGATION */
- .logo-color {
-    color: var(--accent-color);
- }
- .logo {
+ 
+ .top>.logo {
     font-family: 'Raleway', sans-serif;
     color: var(--black-color);
     font-weight: 700;
@@ -26,6 +24,18 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
+ }
+ .footer>.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+ }
+ .logo-color {
+     color: var(--accent-color);
+     font-family: 'Raleway', sans-serif;
  }
  .link {
     color: var(--title-color);
@@ -181,3 +191,8 @@ body {
     border: 1px solid var(--border-line-portfolio);
     background-color: var(--white-color);
 }
+
+
+
+
+
